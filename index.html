@@ -5,27 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/cat.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou a Giovanna</p>
-        <h1>Eu estudo programação</h1>
-        <p>Sou estudante de desenvolvimento de sistemas. Estou no último ano do ensino médio
-        e pretendo cursar engenharia da computação. Atualmente, estou aprendendo sobre HTML, CSS, PHP e Java. 
-        </p>
+        <img src="img/cat.jpg" alt="avatar da Giovanna" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Giovanna</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou técnica em desenvolvimento de sistemas.</p>
         <p>Minhas habilidades</p>
         <div>
             <p class="badge bg-secondary">HTML</p>
             <p class="badge bg-secondary">CSS</p>
             <p class="badge bg-secondary">Java</p>
+            <p class="badge bg-secondary">Python</p>
             <p class="badge bg-secondary">PHP</p>
-            
         </div>
     </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/image.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Coraline Projeto</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta o vídeo sobre um tema que 
+                            gosto e uma breve explicação, feito em 2024.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/img2.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Aventura Legal</h5>
+                        <p class="card-text">Projeo realizado ano passado, com html, css e js.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clone.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Spotify clone</h5>
+                        
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    
+
+    
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/giih011">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
